@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #2A2A2A;
+  color: white;
+}
+
+
+.flex h3{
+  margin-right: 15px;
+  color: white;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > h1{
+  margin-right: 15px;
+}
+
+
+.home > h1{
+  padding: 50px;
+  font-size: 100px;
+}
+
+.App{
+  background-color: rgb(255, 113, 113);
+  width: 99.9vw;
+  height: 93.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  width: 480px;
+  height: 40px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid grey;
+}
+
+.form{
+  height: 550px;
+  width: 650px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  border: 5px solid blueviolet;
+}
+
+
+.alert{
+  color: red;
+  z-index: 5;
+}
+
+button{
+  width: 50%;
+  height: 36px;
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  background-color: rgb(72, 5, 5);
+  color: white;
+  font-size: 22px;
+}
+
+.register{
+  color: red;
+  font-size: 30px;
+}
